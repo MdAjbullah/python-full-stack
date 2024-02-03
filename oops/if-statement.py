@@ -1,11 +1,11 @@
 # if condition :
 # indentation is most 
-# x = int(input("Enter a number: "))
-# if x<0:
-#     print("Negative")
-# if x>0:
-#     print("Positive")
-# print()
+x = int(input("Enter a number: "))
+if x<0:
+ print("Negative")
+ if x>0:
+    print("Positive")
+print()
 
 
 # # if else statement
@@ -148,30 +148,31 @@ case constant:
 break key word is not required in match statement
 default:  # default is optional""" 
    
-x = int(input("Enter a number: "))
-match x:
-       case 1:
-           print("one")
-       case 2:
-           print("two")
-       case 3:
-           print("three")
-       case 4:
-           print("four")
-       case 5:
-           print("five")
-       case 6:
-           print("six")
-       case 7:
-           print("seven")
-       case 8:
-           print("eight")
-       case 9:
-           print("nine")
-       case 10:
-           print("ten")
-       case _:
-           print("invalid number")
+# x = int(input("Enter a number: "))
+# match x:
+#        case 1:
+#            print("one")
+#        case 2:
+#            print("two")
+#        case 3:
+#            print("three")
+#        case 4:
+#            print("four")
+#        case 5:
+#            print("five")
+#        case 6:
+#            print("six")
+#        case 7:
+#            print("seven")
+#        case 8:
+#            print("eight")
+#        case 9:
+#            print("nine")
+#        case 10:
+#            print("ten")
+#        case _:
+#            print("invalid number")
+
 
 
 
